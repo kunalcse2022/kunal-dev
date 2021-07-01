@@ -72,7 +72,7 @@ body{
     
 }
 .kunal .navbar-toggler-icon{
-    background-image: url(/images/shineto.jpg);
+    background-image: url(/kunal-dev/images/shineto.jpg);
 
     
 }
@@ -82,7 +82,7 @@ body{
 /* <!-- growth on ypur  mind..............................growth on ypur  mind --> */
 
 .growth-shine{
-    background-image: url(/images/shine16.png);
+    background-image: url(/kunal-dev/images/shine16.png);
     background-size: cover;
     height: 440px;
     background-repeat: no-repeat;
@@ -232,7 +232,7 @@ margin-top: -180px;
 }
 
 .shine-premium{
-    background-image: url(/images/shine36.png);
+    background-image: url(/kunal-dev/images/shine36.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
@@ -332,11 +332,26 @@ span.gold{
     background-color: rgb(123, 111, 235);
     font-weight: 700;
 }
+.trouble-resume img:hover{
+    
+    
+    transform: skewY(-10deg);
+    /* transform: rotate(10deg); */
+    transform-origin: right;
+    animation: kunal 2s ease 1;
+   
+   
+}
+@keyframes kunal{
+    0%{transform:  perspective(600px) rotatex(20deg); transform-origin: center;}
+    100%{transform: perspective(600px) rotatey(); transform-origin: center;}
+ }
+ 
 
 /* /////////////////////////SHINE LEARNING//////////////// */
 
 .shine-learning{
-    background-image: url(/images/shine44.png);
+    background-image: url(/kunal-dev/images/shine44.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 430px;
@@ -420,6 +435,10 @@ span.gold{
 .best-selling-inner img{
     margin-top: -120px;
     margin-left: 120px;
+}
+
+.best-selling-inner img:hover{
+    transform: scale(1.1);
 }
 
 .browse-jobs button{
@@ -557,7 +576,7 @@ span.gold{
     }
 
     .growth-shine{
-        background-image: url(/images/shine16.png);
+        background-image: url(/kunal-dev/images/shine16.png);
         background-size: cover;
         height: 400px;
         background-repeat: no-repeat;
@@ -845,24 +864,5 @@ span.gold{
    display: none;
 }
 
-
-
- 
-   
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-    
+  
