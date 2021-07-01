@@ -1,0 +1,868 @@
+
+body{
+    overflow-x: hidden;
+}
+
+
+.my-nav{
+    background-color: rgb(0, 54, 153);
+    
+
+}
+
+
+ .dropdown:hover .dropdown-menu{
+     display: block;
+     
+}
+.dropdown-item{
+    transform-origin: top;
+    animation: rotate 1.5s ease 1;
+}
+
+
+
+@keyframes rotate{
+   0%{transform:  perspective(600px) rotatey(90deg); transform-origin: center;}
+   100%{transform: perspective(600px) rotatey(0deg); transform-origin: center;}
+}
+
+ 
+ 
+
+
+
+
+
+.my-nav .navbar-brand img{
+    height: 50px;
+    width: 80px;
+}
+.my-nav .navbar-brand:hover{
+    color:  rgb(189, 208, 243);
+}
+
+.my-nav .nav-link{
+    color: white;
+    font-size: 18px;
+    font-variant: small-caps;
+    
+}
+.my-nav .nav-link:hover{
+    color:rgb(20, 151, 238) ;
+}
+
+.my-nav #nav-button{
+    background-color: rgb(218, 230, 240);
+    border-radius: 5px;
+}
+
+.my-nav #nav-button span{
+    color: black;
+}
+.my-nav .time p{
+
+    font-size: 10px;
+
+}
+
+.kunal .navbar-toggler{
+    border-color: rgb(200, 130, 233);
+    background-color: rgb(93, 0, 243);
+    
+}
+.kunal .navbar-toggler-icon{
+    background-image: url(/kunal-dev/images/shineto.jpg);
+
+    
+}
+
+
+
+/* <!-- growth on ypur  mind..............................growth on ypur  mind --> */
+
+.growth-shine{
+    background-image: url(/kunal-dev/images/shine16.png);
+    background-size: cover;
+    height: 440px;
+    background-repeat: no-repeat;
+
+}
+.growth-shine h2{
+    color: white;
+    font-size: 50px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+.growth-shine span{
+
+    color: rgb(221, 221, 221);
+    font-size: 24px;
+}
+.growth-shine button{
+    background-color: rgb(0, 60, 124);
+}
+
+.searchjob{
+    width: 70%;
+}
+
+.register-for-free{
+    background-color: rgb(158, 150, 226);
+    height: 180px;
+    opacity: 0.8;
+    border: 1px solid rgb(0, 0, 20);
+    border-radius: 5px;
+    background-size: cover;
+    
+
+}
+
+.register-for-free button{
+    background-color: rgb(229, 255, 0);
+    margin-top: 50px;
+    margin-left: 50px;
+    
+
+}
+.register-for-free p{
+    color: rgb(250, 250, 250);
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 100px;
+
+    
+
+}
+.register-for-free img{
+width: 100px;
+height: 100px;
+margin-left: 300px;
+margin-top: -180px;
+
+}
+.cool-place-to-work h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.cool-place-to img{
+    width: 200px;
+    height: 200px;
+    margin-left: 4.6rem;
+    margin-top: 50px;
+
+
+}
+.cool-place img{
+    width: 180px;
+    height: 50px;
+    margin-left: 6rem;
+    margin-top: -70px;
+    box-shadow: 10px 10px 10px 10px rgb(211, 209, 209) ;
+
+}
+.top-companies-hiring h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 60px;
+
+
+}
+.top-companies-hiring img{
+    width: 200px;
+    height: 80px;
+    margin-left: 4.6rem;
+    margin-top: 60px;
+    border: 1px solid blanchedalmond;
+    border-radius: 9px;
+
+
+}
+.company-button button{
+    border: 1px solid blue;
+    color: blue;
+   
+}
+.infosys-image img{
+    margin-left: 70px;
+    margin-top: 60px;
+}
+
+/* ///////////////WHY SHIIIINE/////// */
+
+.why-shine h2{
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+.why-shine i{
+    font-size: 50px;
+    color: rgb(144, 144, 236);
+    margin-top: 20px;
+    padding: 10px;
+
+    
+    
+    
+}
+.why-shine span{
+    font-size: 30px;
+    margin-top: -40px;
+}
+ 
+
+
+
+
+
+
+
+.why-shine p{
+    font-size: 20px;
+    margin-left: 80px;
+    display: inline-block;
+
+    margin-top: -40px;
+   
+}
+
+.shine-premium{
+    background-image: url(/kunal-dev/images/shine36.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+
+
+
+}
+.shine-premium i{
+    font-size: 50px;
+    color: goldenrod;
+
+
+}
+span.gold{
+    font-size: 35px;
+    font-weight: 700;
+    color: goldenrod;
+}
+.shine-premium p{
+    font-size: 35px;
+    color: rgb(44, 44, 44);
+    font-weight:700;
+    margin-top: 20px;
+
+    
+}
+
+
+.check i{
+
+    color: rgb(18, 219, 0);
+    font-size: 25px;
+}
+.check{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+.shine-premium button{
+    display: block;
+    background-color: rgb(247, 195, 63);
+    margin-top: 60px;
+}
+.shine-premium img{
+    height: 300px;
+    margin-left: 100px;
+}
+
+
+.instant-job-alert h2{
+    font-size: 40px;;
+}
+.instant-job-alert span{
+    font-size: 20px;
+}
+.instant-job-alert img{
+    height: 300px;
+}
+
+.instant-job input{
+    border: 2px solid purple;
+    margin-top: 30px;
+    width: 80%;
+}
+.instant-job-alert button{
+    margin-top: -97px;
+    margin-left: 600px;
+    
+}
+.trouble-resume{
+    background-color: rgb(245, 249, 251);
+    height: 410px;
+   
+}
+.resume-writting{
+    background-color: white;
+    height: 130px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 5px 5px rgb(192, 191, 191);
+   margin-left: 50px;
+  
+}
+.resume-writting h3{
+    color: rgb(78, 94, 235);
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+  padding-top: 10px;
+   margin-left: 20px;
+}
+.resume-writting p{
+    margin-left: 20px;
+    color: grey;
+}
+.resume-writting button{
+    margin-left: 20px;
+    background-color: rgb(123, 111, 235);
+    font-weight: 700;
+}
+.trouble-resume img:hover{
+    
+    
+    transform: skewY(-10deg);
+    /* transform: rotate(10deg); */
+    transform-origin: right;
+    animation: kunal 2s ease 1;
+   
+   
+}
+@keyframes kunal{
+    0%{transform:  perspective(600px) rotatex(20deg); transform-origin: center;}
+    100%{transform: perspective(600px) rotatey(); transform-origin: center;}
+ }
+ 
+
+/* /////////////////////////SHINE LEARNING//////////////// */
+
+.shine-learning{
+    background-image: url(/kunal-dev/images/shine44.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 430px;
+    
+}
+.shine-learning-inner img{
+    width: 300px;
+    height: 60px;
+    margin-top: 130px;
+    margin-left: 70px;
+}
+.shine-learning-inner h2
+{
+    color: white;
+    font-weight: 700;
+    margin-left: 70px;
+    opacity: 0.8;
+    margin-top: 20px;
+}
+.shine-learning-inner p{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-left: 70px;
+    opacity: 0.8;
+    
+    margin-top: 20px;
+}
+.shine-learning-inner button{
+    margin-left: 70px;
+    margin-top: 20px;
+    border: 1px solid white;
+    color: white;
+
+}
+.shine-learn-list{
+    background-color: white;
+    height: 300px;
+    margin-top: 70px;
+    box-shadow: 5px 5px 5px 5px rgb(192, 191, 191);
+  margin-right: 90px;
+  border: 1px solid rgb(75, 139, 235);
+  border-radius: 12px;
+}
+.shine-learn-list ul li:hover{
+    color: rgba(23, 134, 199, 0.89);
+
+}
+.shine-learn-list ul li a{
+   margin-left: 130px;
+   font-weight: 600;
+}
+.shine-learn-list ul li span{
+    font-size: 22px;
+    font-weight: 600;
+}
+.best-selling-inner{
+    background-color: white;
+    height: 180px;
+    margin-top: 70px;
+    box-shadow: 5px 5px 5px 5px rgb(192, 191, 191);
+    margin-left: 30px;
+ 
+ 
+}
+.best-selling-inner p{
+    font-size: 18px;
+    color: blue;
+    font-weight: 600;
+    padding: 10px
+}
+
+.best-selling-inner span{
+    font-size: 14px;
+    color: rgb(118, 118, 150);
+    font-weight: 600;
+    padding: 10px
+    
+    
+}
+.best-selling-inner img{
+    margin-top: -120px;
+    margin-left: 120px;
+}
+
+.best-selling-inner img:hover{
+    transform: scale(1.1);
+}
+
+.browse-jobs button{
+    font-size: 17px;
+   font-weight: 600;
+   color: grey;
+   border: 2px solid white;
+   text-align: center;
+   
+  
+}
+
+.browse-jobs a{
+   text-decoration: none;
+    font-size: 17px;
+   font-weight: 600;
+   color: grey;
+}
+.browse-jobs span{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px rgb(223, 221, 221);
+    text-align: center; 
+}
+
+
+/* .browse span{
+    background-color: rgb(241, 239, 239);
+    box-shadow: 5px 5px 5px 5px rgb(207, 206, 206);
+    text-align: center;
+    padding: 5px;
+    display: none; 
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+.browse p{
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: 900;
+    color: grey;
+    margin-top: 0px; 
+    width: 20px;
+    
+  
+    
+} 
+
+.browse p:hover{
+    color: rgb(236, 167, 77);
+}
+.browse-jobs ul li a{
+    color: rgb(83, 33, 219);
+}
+
+
+
+
+.recruit-smart{
+    background-color: rgb(245, 249, 251);
+    height: 350px;
+}
+
+.recruit-smart p{
+    font-size: 30px;
+    color: rgb(155, 111, 244);
+}
+.motivational-quote{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.motivational-quote img{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+
+}
+.motivational-quote h3{
+    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+
+
+.frequently-asked ul li:hover{
+    background-color: rgb(219, 226, 248);
+}
+.footer{
+    background-color: rgb(245, 249, 251);
+    height: 300px;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:200px) and (max-width:575.98px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .growth-shine{
+        background-image: url(/kunal-dev/images/shine16.png);
+        background-size: cover;
+        height: 400px;
+        background-repeat: no-repeat;
+    
+    }
+
+    .searchjob{
+        width: 100%;
+    }
+
+    .register-for-free{
+        background-color: rgb(34, 23, 131);
+        height: 180px;
+        width: 100%;
+        opacity: 0.8;
+        border: 1px solid rgb(0, 0, 20);
+        border-radius: 5px;
+        
+        
+      
+    }
+    .register-for-free img{
+        display: none;
+        
+        }
+        .cool-place-to-work h2{
+            font-size: 40px;
+            font-weight: 700;
+            margin-top: 100px;
+        }
+
+        .cool-place-to img{
+            width: 200px;
+            height: 200px;
+            margin: 4rem;
+            
+            margin-top: 40px;
+            
+        }
+        .cool-place img{
+           display: none;
+        
+        }
+
+        .top-companies-hiring img{
+            width: 200px;
+            height: 80px;
+            margin-left: 4.6rem;
+            margin-top: 30px;
+            border: 1px solid rgb(231, 231, 231);
+            border-radius: 9px;
+            
+        
+        
+        }
+
+        .infosys-image img{
+            margin-left: 0px;
+            margin-top: 60px;
+            width: 100%;
+            height: 150px;
+        }
+
+        
+ .why-shine i{
+    font-size: 40px;
+    color: rgb(119, 119, 241);
+    margin-top: 40px;
+    padding: 0;
+    
+    
+    
+}
+.why-shine span{
+    font-size: 30px;
+    margin-top: -60px;
+    display: inline-block;
+    margin-left: 10px;
+    box-sizing: content-box;
+
+   
+
+
+}
+.why-shine p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 0px;
+   
+
+    
+}
+span.gold{
+    font-size: 25px;
+    font-weight: 500;
+    color: goldenrod;
+}
+.shine-premium p{
+    font-size: 25px;
+    color: rgb(99, 97, 91);
+    font-weight:600;
+    margin-top: 20px;
+
+    
+}
+
+
+.check i{
+
+    color: rgb(18, 219, 0);
+    font-size: 20px;
+}
+.check{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+.shine-premium button{
+    display: inline-block;
+    background-color: rgb(247, 195, 63);
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.shine-premium img{
+    display: none;
+}
+
+.instant-job-alert h2{
+    font-size: 20px;;
+    text-align: center;
+}
+.instant-job-alert span{
+    font-size: 10px;
+}
+.instant-job-alert img{
+   display: none;
+}
+
+.instant-job input{
+    
+    margin-top: 10px;
+    width: auto;
+    margin-left: 60px;
+}
+.instant-job-alert button{
+    margin-top: 10px;
+    margin-left: 115px;
+    
+}
+
+.trouble-resume{
+    background-color: rgb(245, 249, 251);
+    
+   
+}
+
+.resume-writting{
+    background-color: white;
+    height: 130px;
+    margin-top: 40px;
+    box-shadow: 5px 5px 5px 5px rgb(192, 191, 191);
+   margin-left: 50px;
+}
+.resume-writting h3{
+    color: rgb(78, 94, 235);
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Merriweather', serif;
+  padding-top: 10px;
+   
+}
+.resume-writting p{
+    margin-left: 20px;
+    color: grey;
+}
+.resume-writting button{
+    margin-left: 20px;
+    background-color: rgb(123, 111, 235);
+    font-weight: 700;
+    margin-top: -10px
+}
+
+
+.resume-image img{
+    display: none;
+}
+.shine-learn-list{
+    background-color: white;
+    height: 300px;
+    margin-top: 90px;
+    box-shadow: 5px 5px 5px 5px rgb(192, 191, 191);
+  
+  width: 100%
+}
+.shine-learn-list ul li:hover{
+    color: rgba(23, 134, 199, 0.89);
+
+}
+.shine-learn-list ul li a{
+   margin-left: 10px;
+   font-weight: 600;
+}
+.shine-learn-list ul li span{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.best-selling-inner img{
+    margin-top: -120px;
+    margin-left: 160px;
+    height: 100px;
+    height: 110px;
+}
+.best-selling-inner{
+    background-color: white;
+    height: 180px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(192, 191, 191);
+    width: 100%;
+    margin-left: -0px;
+    
+   
+    
+    
+ 
+ 
+}
+.best-selling-inner span{
+    font-size: 14px;
+    color: rgb(118, 118, 150);
+    font-weight: 600;
+   
+    
+    
+}
+.browse-jobs ul li {
+    margin-left: -20px;
+   
+}
+.browse-jobs p{
+   display: none;
+  
+    
+}
+
+
+.browse-jobs button{
+    font-size: 14px;
+   font-weight: 600;
+   color: grey;
+   border: 2px solid white;
+   text-align: center;
+   
+  
+}
+.browse-jobs span{
+   display: none;
+}
+.recruit-smart{
+    background-color: rgb(245, 249, 251);
+    height: 550px;
+}
+
+.motivational-quote{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: vh;
+}
+.motivational-quote img{
+    height: 100px;
+    width: 100px;
+    /* padding: 10px; */
+
+}
+.motivational-quote h3{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+.career-advice{
+   display: none;
+}
+
+}
+  
